@@ -407,6 +407,7 @@ btn{
 
 .featured .featured-slider .box img{
     height: 15rem;
+    border-radius: 2rem;
 }
 
 .featured .featured-slider .box:hover img{
@@ -617,6 +618,13 @@ btn{
     font-size: 2rem;
     color:var(--black);
 }
+
+input .btn{
+    border-radius: 3rem;
+    height: 3rem;
+    width: 15%;
+}
+
 
 
 
