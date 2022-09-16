@@ -1,0 +1,37 @@
+{
+    "theme_color": "#07b40e",
+    "theme-color": "#07b40e",
+    "background_color": "#43f201",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "../index.html",
+    "name": "JaCar",
+    "short_name": "JaCar",
+    "description": "higieniza\u00e7\u00e3o",
+    "icons": [
+        {
+            "src": "/image/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/image/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/image/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/image/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
