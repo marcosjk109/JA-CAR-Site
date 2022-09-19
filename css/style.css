@@ -335,7 +335,7 @@ btn {
 }
 
 .vehicles .vehicles-slider .box .content p {
-    font-size: 1.6rem;
+    font-size: 0;
     color: var(--light-color);
     padding: 1rem 0;
     padding-top: 1.5rem;
@@ -343,7 +343,7 @@ btn {
 }
 
 .vehicles .vehicles-slider .box .content span {
-    font-size: 1rem;
+    font-size: 0rem;
     color: var(--yellow);
     padding: 0 .5rem;
 }
@@ -433,7 +433,7 @@ btn {
 }
 
 .featured .featured-slider .box .content .stars i {
-    font-size: 1.7rem;
+    font-size: 0rem;
     color: var(--yellow);
 }
 
