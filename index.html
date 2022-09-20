@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/style01.css">
 
     <link rel="manifest" href="manifest.json">
 
@@ -544,15 +545,17 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" loading="lazy"></iframe>
 
-            <form action="">
-                <h3>entrar em contato</h3>
-                <input type="text" placeholder="seu nome" class="box">
-                <input type="email" placeholder="seu email" class="box">
-                <input type="tel" placeholder="celular" class="box">
-                <textarea placeholder="sua mensagem" class="box" cols="30" rows="10"></textarea>
-                <input type="submit" value="enviar" class="btn">
-            </form>
+                <form action="#contact" method="get" onsubmit="abrirWhatsapp()">
 
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required><br>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required><br>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required><br>
+                    <textarea name="msg" id="msg" placeholder="Mensagem" cols="30" rows="5" required></textarea><br>
+                    <button type="submit"><img src="https://matheuscostadesign.github.io/enviar-para-whatsapp/assets/whatsapp.svg" alt="Icone Whatsapp"><span>Enviar</span>
+                    </button>
+
+
+                  </form>
         </div>
 
     </section>
@@ -610,7 +613,7 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="/server.js"></script>
     <script src="/js/script.js"></script>
-    <script src="/js/avaliação.js"></script>
+    <script src="/js/script01.js"></script>
 
 </body>
 

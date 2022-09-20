@@ -1,0 +1,57 @@
+
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 2px solid;
+    text-transform: none
+  }
+
+  input,
+  textarea {
+    padding: 16px;
+    color: green;
+  }
+  
+  input,
+  button {
+    height: 40px;
+  }
+  
+  button {
+    position: relative;
+    top: 3rem;
+    cursor: pointer;
+    background-color: #25d366;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 48px;
+  }
+  
+  button img {
+    margin-right: 8px;
+  }
+  
+  a {
+    color: #25d366;
+  }
+
+.chackbox{
+  width: 250px;
+  display: inline-flex;
+}
+
+.chackbox label{
+  font-size: 20px;
+  margin-left: 2rem;
+  position: relative;
+  left: -1.5rem;
+  top: 0.6rem;
+}
