@@ -3,7 +3,7 @@ function abrirWhatsapp() {
     var telefone = document.getElementById("telefone").value;
     var email = document.getElementById("email").value;
     var msg = document.getElementById("msg").value;
-    var url = "https://wa.me/5596981156784?text=" // Seu numero
+    var url = "https://wa.me/5596981232405?text=" // Seu numero
       + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
       + "%0a" // Quebra de linha
       + "*Nome*: " + nome + "%0a" // Dados do formulário
