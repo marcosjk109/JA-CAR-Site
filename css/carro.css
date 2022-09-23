@@ -7,7 +7,6 @@
   --first-color: hsl(0, 0%, 100%);
   --text-color: #fff;
   --text-color-black: hsl(30, 8%, 15%);
-  --body-color: hsl(129, 82%, 65%);
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -34,7 +33,8 @@
 
 body {
   font-family: var(--body-font);
-  background-color: var(--body-color);
+  background: rgb(1,140,49);
+background: linear-gradient(90deg, rgba(1,140,49,1) 0%, rgba(9,121,90,1) 47%, rgba(0,255,176,1) 100%);
 }
 
 img {
@@ -55,7 +55,7 @@ img {
   position: relative;
   width: 208px;
   height: 268px;
-  border-radius: 3rem;
+  border-radius: 4.5rem;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -74,7 +74,6 @@ img {
 }
 
 .gallery__card::after{
-  content: "";
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, 
