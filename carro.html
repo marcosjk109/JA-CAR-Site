@@ -1,227 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--=============== REMIXICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="/css/carro.css">
-
-    <title>Carros</title>
+    <title>Image Slider</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
-
 <body>
-
-        <!-- =============== SWIPER GALLERY CARDS =============== -->
-        <div class="gallery">
-        <div class="swiper gallery-cards">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/21.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/22.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/23.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/12.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/15.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/16.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/17.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/19.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/13.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/14.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/1.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/2.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-            </div>
+    <h1>Higienização De Carros</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="image/1.jpg" id="content1" class="active">
+            <img src="image/2.jpg" id="content2">
+            <img src="image/11.jpg" id="content3">
+            <img src="image/14.jpg" id="content4">
+            <img src="image/15.jpg" id="content5">
+            <img src="image/16.jpg" id="content6">
+            <img src="image/21.jpg" id="content7">
+            <img src="image/22.jpg" id="content8">
+            <img src="image/23.jpg" id="content9">
         </div>
-
-        <!-- =============== SWIPER GALLERY THUMBNAIL =============== -->
-        <div class="gallery__overflow">
-            <div class="swiper gallery-thumbs">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/21.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/22.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/23.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/12.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/15.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/16.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/17.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/19.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/13.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/14.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/1.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/2.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Swiper pagination-->
-                <div class="swiper-pagination"></div>
-            </div>
-             <!--swiper arrows-->
-             <div class="swiper-button-next">
-              <i class="ri-arrow-right-line"></i>
-            </div>
-            <div class="swiper-button-prev">
-              <i class="ri-arrow-left-line"></i>
-            </div>
+        <div class="dot-container">
+            <button onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+            <button onclick = "dot(3)"></button>
+            <button onclick = "dot(5)"></button>
+            <button onclick = "dot(6)"></button>
+            <button onclick = "dot(7)"></button>
+            <button onclick = "dot(8)"></button>
+            <button onclick = "dot(9)"></button>
         </div>
+        <button id="prev" onclick="prev()"> &lt; </button>
+        <button id="next" onclick="next()"> &gt; </button>
     </div>
-    <script src="/js/swiper-bundle.min.js"></script>
-    <script src="/js/carro.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
-
 </html>

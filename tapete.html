@@ -1,171 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--=============== REMIXICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="/css/carro.css">
-
-    <title>Tapetes</title>
+    <title>Image Slider</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/tapete.css">
 </head>
-
 <body>
-
-        <!-- =============== SWIPER GALLERY CARDS =============== -->
-        <div class="gallery">
-        <div class="swiper gallery-cards">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t1.png" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t2.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t3.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t4.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t5.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t6.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t7.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-slide">
-                    <article class="gallery__card">
-                        <img src="/image/t8.jpg" alt="" class="gallery__img">
-                        <div class="gallery__data">
-                            <h3 class="gallery__title"></h3>
-                            <span class="gallery__subtitle"></span>
-                        </div>
-                    </article>
-                </div>
-            </div>
+    <h1>Limpeza de Tapete</h1>
+    <div class="container">
+        <div class="image-container">
+            <img src="image/t1.png" id="content1" class="active">
+            <img src="image/t3.jpg" id="content2">
+            <img src="image/t4.jpg" id="content3">
+            <img src="image/t5.jpg" id="content4">
+            <img src="image/t6.jpg" id="content5">
+            <img src="image/t7.jpg" id="content6">
+            <img src="image/t8.jpg" id="content7">
         </div>
-
-        <!-- =============== SWIPER GALLERY THUMBNAIL =============== -->
-        <div class="gallery__overflow">
-            <div class="swiper gallery-thumbs">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t1.png" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t2.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t3.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t4.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t5.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t6.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t7.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="gallery__thumbnail">
-                            <img src="/image/t8.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Swiper pagination-->
-                <div class="swiper-pagination"></div>
-            </div>
-             <!--swiper arrows-->
-             <div class="swiper-button-next">
-              <i class="ri-arrow-right-line"></i>
-            </div>
-            <div class="swiper-button-prev">
-              <i class="ri-arrow-left-line"></i>
-            </div>
+        <div class="dot-container">
+            <button onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+            <button onclick = "dot(3)"></button>
+            <button onclick = "dot(4)"></button>
+            <button onclick = "dot(5)"></button>
+            <button onclick = "dot(6)"></button>
+            <button onclick = "dot(7)"></button>
         </div>
+        <button id="prev" onclick="prev()"> &lt; </button>
+        <button id="next" onclick="next()"> &gt; </button>
     </div>
-    <script src="/js/swiper-bundle.min.js"></script>
-    <script src="/js/carro.js"></script>
+    <script src="js/tapete.js"></script>
 </body>
-
 </html>

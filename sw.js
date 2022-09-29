@@ -6,10 +6,21 @@ self.addEventListener('install', function(event){
             cache.addAll([
                 './',
                 './index.html',
+                './carro.html',
+                './tapete.html',
+                './sofa.html',
                 './css/style.css',
                 './js/script.js',
+                './js/sofa.js',
+                './js/tapete.js',
+                './js/script01.js',
+                './js/swiper-bundle.min.js',
                 './manifest.json',
-                './image/',
+                './css/gallery.css',
+                './css/sofa.css',
+                './css/style01.css',
+                './css/tapete.css',
+                './css/swiper-bundle.min.css',
                 './server.js'
             ])
         })

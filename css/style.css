@@ -387,6 +387,7 @@ btn {
     padding: 1rem 0;
     font-size: 1.4rem;
     color: var(--light-color);
+    text-transform: none;
 }
 
 .services .box-container .box:hover {
@@ -542,6 +543,12 @@ btn {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+}
+
+h6 {
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: none;
 }
 
 .contact .row .map {
